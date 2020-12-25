@@ -1,0 +1,29 @@
+{
+  "name": "kodluyoruzodev",
+  "version": "1.0.0",
+  "description": "deneme",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/service.js",
+		"dev": "nodemon src/lib/service.js",
+		"build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-mehmet-oksuz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodluyoruz-react-bootcamp/odev-1-mehmet-oksuz/issues"
+  },
+  "homepage": "https://github.com/kodluyoruz-react-bootcamp/odev-1-mehmet-oksuz#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  }
+}
