@@ -4,9 +4,9 @@
   "description": "deneme",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/service.js",
-		"dev": "nodemon src/lib/service.js",
-		"build": "sucrase ./src -d ./dist --transforms imports"
+    "start": "node app.js",
+    "dev": "nodemon src/app.js"
+
   },
   "repository": {
     "type": "git",
